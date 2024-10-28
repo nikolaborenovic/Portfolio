@@ -4,13 +4,14 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    background-color: rgb(4, 4, 63);
-    padding: 10px;
+    background-color: #0e1527;
+    padding: 10px 0px;
     margin: 0px auto;
+    border-bottom: 1px solid gray;
     
 }
 .portfolio_navigation a{
-    color: rgb(10, 197, 10);
+    color: #72e2ae;
     text-decoration: none;
     font-weight: bold;
 
