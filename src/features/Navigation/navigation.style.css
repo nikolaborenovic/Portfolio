@@ -7,11 +7,11 @@
     background-color: #0e1527;
     padding: 10px 0px;
     margin: 0px auto;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(90, 89, 89);
     
 }
 .portfolio_navigation a{
-    color: #72e2ae;
+    color: #68ffb8;
     text-decoration: none;
     font-weight: bold;
 
