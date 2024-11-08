@@ -19,11 +19,18 @@
 }
 .works_navigation span {
     color: #68ffb8;
-    background-color: #539476;
+    background-color: #3e6050;
     padding: 5px;
     border-radius: 5px;
     font-size: 12px;
+    cursor: pointer;
 }
+
+.active{
+    background-color: #68ffb8!important;
+    color: black!important;
+}
+
 .items_holder{
     margin: 0px;
     width: 100%;
