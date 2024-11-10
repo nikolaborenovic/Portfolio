@@ -29,7 +29,8 @@ const Works = () => {
     return(
         <div className='works_holder'>
             <h1>WORKS</h1>
-            <input 
+            <input
+            className='search_bar'
             type='text'
             placeholder='search'
             value={searchQuery}
