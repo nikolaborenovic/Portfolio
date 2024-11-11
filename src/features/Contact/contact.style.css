@@ -1,0 +1,129 @@
+.contacts_holder{
+    background-color: #0e1527;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.contacts_holder h1{
+    color: white;
+}
+
+.contacts_main{
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 420px;
+    gap: 30px;
+}
+
+/*Left side of contacts */
+
+.contacts_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    color: white;
+    
+}
+
+.contacts_list img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: auto 0px;
+}
+
+.contacts_list_header p {
+    opacity: .6;
+    font-size: 12px;
+}
+
+.contact_option{
+    display: flex;
+    gap: 10px;
+    background-color: #1f2c48;
+    border: 2px solid #293859;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 85px;
+}
+
+.phone_email_location_header{
+    opacity: .9;
+    font-size: 14px;
+}
+
+.phone_email_location{
+    opacity: .6;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 10px;
+    
+}
+.phone_email_location p {
+    margin: 0px!important;
+    font-size: 12px;
+}
+
+/*Right side of contacts */
+
+.contacts_form{
+    width: 100%;
+    height: inherit;
+    background-color: #1f2c48;
+    border: 2px solid #293859;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.contacts_form button{
+    background-color: #68ffb8;
+    width: 100%;
+    max-width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact_form_component{
+    margin: 0px!important;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.contact_form_component p{
+    margin: 0px!important;
+    font-size: 12px;
+}
+.contact_form_component input {
+    background-color: #1f2c48;
+    border: 2px solid #293859;
+    padding: 5px;
+    color: white;
+}
+.message_input{
+    height: 100px!important;
+    overflow: auto;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: #1f2c48;
+    border: 2px solid #293859;
+    color: white;
+}
